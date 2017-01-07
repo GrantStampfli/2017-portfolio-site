@@ -1,5 +1,5 @@
 <template>
-  
+  <h4>Contact Section</h4>
 </template>
 
 <script>

@@ -1,18 +1,36 @@
 <template>
   <div id="app">
-    <h1>{{ name }}</h1>
-    <h2>{{ title }}</h2>
+    <home></home>
+    <about></about>
+    <tech></tech>
+    <work></work>
+    <contact></contact>
+    <links></links>
   </div>
 </template>
 
 <script>
+import Home from './components/Home.vue'
+import About from './components/about.vue'
+import Tech from './components/tech.vue'
+import Work from './components/work.vue'
+import Contact from './components/contact.vue'
+import Links from './components/links.vue'
+
 export default {
   data: {
-    name: 'Grant Stampfli',
-    title: 'Full Stack Developer'
+
   },
   methods: {
     
+  },
+  components: {
+    'home': Home,
+    'about': About,
+    'tech': Tech,
+    'work': Work,
+    'contact': Contact,
+    'links': Links
   },
   mounted: function () {
 

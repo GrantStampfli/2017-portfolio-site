@@ -1,5 +1,5 @@
 <template>
-  <h4>Work Section</h4>
+  <h4>Link Section</h4>
 </template>
 
 <script>

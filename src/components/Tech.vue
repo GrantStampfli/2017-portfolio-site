@@ -1,5 +1,5 @@
 <template>
-  
+  <h4>Tech Section</h4>
 </template>
 
 <script>
