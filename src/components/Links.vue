@@ -11,7 +11,7 @@ export default {
   },
   props: {
   	linkList: {
-  		type Array,
+  		type: Array,
   		required: true,
   		default: [
 			{
