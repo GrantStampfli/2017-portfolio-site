@@ -10,7 +10,18 @@ export default {
     }
   },
   props: {
-
+  	linkList: {
+  		type Array,
+  		required: true,
+  		default: [
+			{
+				name: 'Github',
+				link: 'http://github.com',
+				logo: 'github'	
+  			}
+  		]
+  	}
+  	['name', 'link', 'logo']
   },
   methods: {
     
@@ -21,3 +32,10 @@ export default {
 <style>
 
 </style>
+
+<!-- 
+{
+  name: 'Google +',
+  link: 'http://google.com',
+  logo: 'github'
+}, -->

@@ -1,11 +1,12 @@
 <template>
   <div id="app">
+
     <home></home>
     <about></about>
     <tech></tech>
     <work></work>
     <contact></contact>
-    <links></links>
+    <links :links="socialLinks"></links>
   </div>
 </template>
 
@@ -19,7 +20,28 @@
 
   export default {
     data: {
-
+      socialLinks: [
+        {
+          name: 'Google +',
+          link: 'http://google.com',
+          logo: 'github'
+        },
+        {
+          name: 'Github',
+          link: 'http://google.com',
+          logo: 'github'
+        },
+        {
+          name: 'Twitter',
+          link: 'http://google.com',
+          logo: 'github'
+        },
+        {
+          name: 'LinkedIn',
+          link: 'http://google.com',
+          logo: 'github'
+        }
+      ]
     },
     methods: {
       
